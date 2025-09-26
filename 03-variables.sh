@@ -1,9 +1,9 @@
 #!/bin.bash
-PERSON1=$raju
-PERSON2=$ram
 
-echo "$PERSON1:: How are you $PERSON2"
-echo "$PERSON2:: i am fine .how about you $PERSON1"
-echo "$PERSON1 :: i am good and thank you $PERSON2"
+PERSON1=$1
+PERSON2=$2
 
-
+echo "$PERSON1:: Welcome to Alaska $PERSON2"
+echo "$PERSON2:: Thank you $PERSON1, Finally not on Zoom Webinar"
+echo "$PERSON1:: So, do we have a deal"
+echo "$PERSON2:: Yes, if you make Ukraine joins Russia"
