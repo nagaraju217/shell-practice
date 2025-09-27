@@ -1,7 +1,7 @@
 #!/bin/bash
-USER_ID=(id -u)
+USERID=(id -u)
 
-if [ $USER_ID -ne 0 ]; then
+if [ $USERID -ne 0 ]; then
     echo "please run the script with root user"
     exit 1
 fi
