@@ -13,3 +13,8 @@ echo "All leaders: ${LEADERS[@]}"
 echo ""first leader :${LEADERS[0]}
 #echo "First Leader: ${LEADERS[0]}"
 echo "First Leader: ${LEADERS[10]}"
+
+
+CLASS_MATES=("raju" "surya" "sai" "venky")
+echo "classmetes is ${CLASS_MATES[@]}"
+echo "best friend  is ${CLASS_MATES[0]}"
