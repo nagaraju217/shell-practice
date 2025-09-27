@@ -8,3 +8,4 @@ read -s password
 sudo passwd $user_name
 echo "user created and password set for :$user_name"
 cat /etc/passwd |grep -i $user_name
+echo "script executed is: $0"
