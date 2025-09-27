@@ -48,3 +48,6 @@ dnf list installed python3
 else
     echo -e "python $Y already installed $N"
 fi
+
+
+echo "script name is: [$0]"
