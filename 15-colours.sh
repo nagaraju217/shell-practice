@@ -40,10 +40,10 @@ else
     echo -e "nginx $Y already installed $N"
 fi
 
-dnf list installed python
+dnf list installed python3
  if [ $1 -ne 0 ]; then
-    dnf install python-3 -y
-    VALIDATE $? "python"
+    dnf install python3 -y
+    VALIDATE $? "python3"
     exit 1
 else
     echo -e "python $Y already installed $N"
